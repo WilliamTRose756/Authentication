@@ -8,6 +8,7 @@ import {
 
 const router = express.Router()
 
+// User routes
 router.post('/', registerUser)
 router.post('/auth', authUser)
 router.post('/logout', logoutUser)
